@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(87, 116, 21) ;
+    display: flex;
+    align-items: center;
+      padding: 12px;
+  
+}
+
+
+
+.logo a{
+    font-size: 2.8em;
+    padding-left: 90px;
+    padding-right: 60px;
+    text-decoration: none;
+    
+}
+header h1{
+    font-size: 2.8em;
+    padding-left: 50px;
+    padding-right: 60px;
+    text-decoration: none;
+    
+    
+}
+form { 
+    padding: 0.3em;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 2px 2px 2px 0px rgba(59, 58, 58, 0.411);
+    
+
+ }
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 2em;
+    border: none;
+    padding: 0.4em;
+outline: 0;
+    
+}
+form button {
+    cursor: pointer;
+    color: rgb(29, 59, 17);
+  background-color: transparent;
+    align-items: center;
+}
+form button:hover {
+    
+    color: rgb(117, 243, 0);
+}
+
+.links a {
+    padding-left: 40px;
+    text-decoration: none;
+     font-size: 1.3em; 
+     color: rgba(240, 248, 255, 0.616);
+}
+.links a:hover{
+    color: rgb(16, 61, 8);
+}
+.icons a {
+
+
+    font-size: 1.9em;
+    color: rgb(0, 0, 0);
+padding: 5px;
+
+}
+.icons a:hover{
+    color: rgb(36, 180, 17);  
+     }
+
+.icons {
+    
+  margin-left: 10px;
+    
+    
+    
+}
+.icons i {
+    transition: 0.3s all;
+    border-radius: 50px;
+}
+.icons a:hover > i {
+    transform: scale(1.5);
+}
+main {
+    padding-left: 20px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.cantores img  {
+    height: 215px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 4px rgb(7, 68, 7);
+    transition: 0.3s all;
+    margin-right: 15px;
+
+
+
+ }
+ .cantores h1 {
+     color: rgba(47, 128, 9, 0.897);
+     font-weight: 100;
+ }
+  .cantores p {
+      color: rgba(255, 255, 255, 0.788);
+      font-size: 1.5em;
+  }
+  .cantores h2 {
+      color:rgb(68, 116, 14);
+      font-size: 1.7em;
+      font-weight: 100;
+      
+  }
+ .cantores img, h2, p {
+    
+    
+     float: left;
+     
+ }
+ .cantores a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 10px; 
+    padding: 2px;
+ }
+ .cantores img:hover {
+    transform: scale(1.1);
+}
+.conteúdo h1 {
+    color: rgb(44, 155, 10);
+    font-size: 1.8em;
+    font-weight: 100;
+    
+}
+.conteúdo ol{
+    list-style-position: inside;
+    columns: 2;
+}
+.conteúdo li, a {
+    color: rgb(27, 112, 27);
+    text-decoration: none; 
+    font-size: 1.2em;
+}
+.conteúdo li:hover{
+    text-decoration: underline;
+}
+hr {
+    color: rgba(240, 248, 255, 0.205);
+    width: 1330px;
+}
+#msg {
+font-size: 21pt;
+font-family: 'Scheherazade New', serif;
+font-style: normal;
+font-weight: 100;
+color: rgb(8, 126, 14);
+margin-left: 15px;
+
+}

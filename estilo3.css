@@ -1,0 +1,136 @@
+@charset 'UTF-8';
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+main {
+    background-color: black;
+}
+header {
+    background-color: rgb(87, 116, 21) ;
+    display: flex;
+    align-items: center;
+      padding: 12px;
+
+  
+}
+
+
+
+.logo a{
+    font-size: 2.8em;
+    padding-left: 90px;
+    padding-right: 60px;
+    text-decoration: none;
+    
+}
+header h1{
+    font-size: 2.8em;
+    padding-left: 50px;
+    padding-right: 60px;
+    text-decoration: none;
+    
+    
+}
+form { 
+    padding: 0.3em;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 2px 2px 2px 0px rgba(59, 58, 58, 0.801);
+    
+
+ }
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 2em;
+    border: none;
+    padding: 0.4em;
+outline: 0;
+    
+}
+form button {
+    cursor: pointer;
+    color: rgb(29, 59, 17);
+  background-color: transparent;
+    align-items: center;
+}
+form button:hover {
+    
+    color: rgb(117, 243, 0);
+}
+
+.links a {
+    padding-left: 40px;
+    text-decoration: none;
+     font-size: 1.3em; 
+     color: aliceblue;
+}
+.links a:hover{
+    color: rgb(41, 136, 22);
+}
+.icons a {
+
+
+    font-size: 1.9em;
+    color: rgb(0, 0, 0);
+padding: 5px;
+
+}
+.icons a:hover{
+    color: rgb(36, 180, 17);  
+     }
+
+.icons {
+    
+  margin-left: 10px;
+    
+    
+    
+}
+.icons i {
+    transition: 0.3s all;
+    border-radius: 50px;
+}
+.icons a:hover > i {
+    transform: scale(1.5);
+}
+.músicais h1, h2 {
+    font-size: 2em;
+    color: rgb(11, 116, 11);
+    font-weight: 400;
+}
+main {
+    margin-left: 20px;
+}
+iframe {
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(8, 78, 5, 0.856);
+}
+.letras p {
+    color: rgba(241, 241, 241, 0.795);
+    font-size: 1.3em;
+    
+    
+}
+.minimo video {
+    width: 500px;
+    position: relative;
+    margin-left: 800px;
+    bottom: 3500px;
+    border-radius: 10px;
+border: solid 4px rgb(4, 77, 4);
+    
+}
+
+.maximo video {
+    width: 500px;
+    position: relative;
+    
+    margin-left: 800px;
+    bottom: 8230px;
+    border-radius: 10px;
+border: solid 4px rgba(76, 212, 23, 0.507) ;
+}
