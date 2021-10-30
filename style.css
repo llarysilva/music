@@ -11,10 +11,10 @@ body {
 }
 
 header {
-    background-color: rgb(87, 116, 21) ;
     display: flex;
     align-items: center;
       padding: 12px;
+      background-color: green;
 
   
 }
@@ -40,7 +40,7 @@ form {
     padding: 0.3em;
     background-color: white;
     border-radius: 2em;
-    box-shadow: 2px 2px 2px 0px rgba(59, 58, 58, 0.801);
+    box-shadow: 2px 2px 2px 0px rgba(59, 58, 58, 0.644);
     
 
  }
@@ -60,7 +60,7 @@ form button {
 }
 form button:hover {
     
-    color: rgb(117, 243, 0);
+    color: rgb(16, 121, 30);
 }
 
 .links a {
@@ -68,9 +68,10 @@ form button:hover {
     text-decoration: none;
      font-size: 1.3em; 
      color: aliceblue;
+     transition: 0.3s all;
 }
 .links a:hover{
-    color: rgb(41, 136, 22);
+    color: rgb(8, 78, 17);
 }
 .icons a {
 
@@ -81,7 +82,7 @@ padding: 5px;
 
 }
 .icons a:hover{
-    color: rgb(36, 180, 17);  
+    color: rgb(14, 100, 40);  
      }
 
 .icons {
@@ -115,9 +116,9 @@ main a, img {
     margin-left: 15px;
 }
 .generos a{
-    color: rgb(13, 131, 19);
+    color: rgb(15, 139, 52);
     margin: 20;
-    border: solid 3px rgb(27, 116, 9);
+    border: solid 3px rgb(32, 124, 37);
     border-radius: 1000px;
     padding: 6px;
     font-size: 1.2em;
