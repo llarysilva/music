@@ -82,7 +82,7 @@ padding: 5px;
 
 }
 .icons a:hover{
-    color: rgb(14, 100, 40);  
+    color: rgb(22, 75, 38);  
      }
 
 .icons {
@@ -141,20 +141,21 @@ main a, img {
     position: relative;
     margin: auto;
 }
-.baixoesquerda p{
-    position: absolute;
-    bottom: 30px;
-    margin-left: 40px;
-    text-align: center;
+.esquerda a { 
+    left: 20px;
+    bottom: 50px;
+    position: relative;
     background-color: rgb(62, 151, 35);
-    padding: 12px;
     color: aliceblue;
-    border-radius: 15px;
+    padding: 8px;
+    border-radius: 12px;
     font-size: 1.2em;
     font-weight:200 ;
+    width: 470px;
 }
-.baixoesquerda p:hover{
+.esquerda a:hover{
     background-color: rgb(6, 71, 11);
+    cursor: ;
 }
 .top10 h1{
     color: rgb(61, 121, 13);
